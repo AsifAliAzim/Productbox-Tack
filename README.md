@@ -15,11 +15,19 @@ The three screens are:
 
 Login Screen:
 -------------
-User should be able to add username and password in this screen. Once he does that and presses "Sign In", It should hit the following dummy API: https://jsonplaceholder.typicode.com/users that fetches an array of users. In this particular API, we do not have password so we will consider email address as a password. If user enters the username and password(email) that exists in JSON returned from the API, you have to show an alert of "Sign in Successful" and if its incorrect, it should show "Sign in unsuccessful". This alert can be in any format and needs to be designed from your own aesthetic sense that needs to match the current design. Do make sure that your API call is coded well as making HTTP requests is something you should be very familiar with.
+User should be able to add username and password in this screen. ===> (Done)
+Once he does that and presses "Sign In", It should hit the following dummy 
+API: https://jsonplaceholder.typicode.com/users that fetches an array of users. ===> (Done)
+In this particular API, we do not have password so we will consider email address as a password. ===> (Got it)
+If user enters the username and password(email) that exists in JSON returned from the API, 
+you have to show an alert of "Sign in Successful" and if its incorrect, it should show "Sign in unsuccessful". ===> (Done) 
+This alert can be in any format and needs to be designed from your own aesthetic sense that needs to match the current design. ===> (Done: Snack bar is added )
+Do make sure that your API call is coded well as making HTTP requests is something you should be very familiar with.
 
-Forgot Password and Sign Up would just be static text that won't have any response.
+Forgot Password and Sign Up would just be static text that won't have any response. ===> (Design: Done, Functionality: Skipped)
 
-If Sign in is successful, user should be directed towards the next screen aka Upload Documents Screen. If Sign in isn't successful user should remain on the same screen.
+If Sign in is successful, user should be directed towards the next screen aka Upload Documents Screen. ===> (Done)
+If Sign in isn't successful user should remain on the same screen.===> (Done)
 
 Upload Documents Screen:
 ------------------------
@@ -30,9 +38,14 @@ In this screen, User will have an option to upload the information required whic
 - Certificate
 - Passport
 
-These are clickable buttons and once user clicks on it, user should be asked if he wants to use camera or gallery. The supported formats will be extension of images e.g. `PNG & JPG`. 
+These are clickable buttons and once user clicks on it, user should be asked if he wants to use camera or gallery.  ===> (Done)
+The supported formats will be extension of images e.g. `PNG & JPG`.  
 
-Also, user should be able to upload PDF which means he can select documents as well. Once user upload his documents/images by using camera or gallery, the documents/images should appear as a thumbnail as shown in the screenshot. If user clicks on that button again, it should display that document on full screen. The data should remain as long as user does not close the application or clicks on the back icon on top left corner.
+Also, user should be able to upload PDF which means
+he can select documents as well. Once user upload his documents/images by using camera or gallery,
+the documents/images should appear as a thumbnail as shown in the screenshot.
+If user clicks on that button again, it should display that document on full screen. ===> (Done)
+The data should remain as long as user does not close the application or clicks on the back icon on top left corner.
 
 The slider on the top should be functional and must suggest how many documents are uploaded.
 The done button will be unresponsive though it should remain disabled until all 4 documents are uploaded. Once all documents are uploaded, the done button should change its color to a more appropriate color that you think fits here considering our app's design.
